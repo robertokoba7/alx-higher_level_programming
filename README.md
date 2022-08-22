@@ -13,8 +13,5 @@ Projects
 ---
 
 *Project name*              |         *Description*
-----------------------------|-------------------------
-``diff
-+ text in green
-`0x00-hello_world`
-```                          | It aims to learn about variables, basics commands (print) and handle strings with **Python**
+----------------------------|-----------------------
+`0x00-hello_world`          | It aims to learn about variables, basics commands (print) and handle strings with **Python**
