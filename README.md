@@ -9,8 +9,12 @@ Technologies
 * Code to use the pycodestyle (version 2.8.*)
 * C Scripts use Betty style.
 
-##Projects
+Projects
+---
 
 *Project name*              |         *Description*
---------------------------|-------------------------
-0x00-hello_world          | It aims to learn about variables, basics commands (print) and handle strings with **Python**
+----------------------------|-------------------------
+``diff
++ text in green
+`0x00-hello_world`
+```                          | It aims to learn about variables, basics commands (print) and handle strings with **Python**
