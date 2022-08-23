@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = randon. randint(-10000, 10000)
+number = randon.randint(-10000, 10000)
 
 if number >= 0:
     l_digit = number % 10
