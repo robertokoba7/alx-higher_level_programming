@@ -8,9 +8,9 @@ if __name__ == "__main__":
         sys.exit(1)
 
     op = sys.argv[2]
-     if op != '+' and op != '-' and op != '*' and op != '/':
-          print("Unknown operator. Available operators: +, -, * and /")
-          sys.exit(1)
+    if op != '+' and op != '-' and op != '*' and op != '/':
+        print("Unknown operator. Available operators: +, -, * and /")
+        sys.exit(1)
 
     from calculator_1 import add, sub, mul, div
     a = int(sys.argv[1])
