@@ -6,6 +6,7 @@ Project done during **Full Stack Software Engineering studies** at **ALX SE prog
 Files
 ---
 **Filename**                             |     **Description**
+-----------------------------------------|-----------------------------------------
 `0-print_list_integer.py`                | Function that prints all integers of a list
 `1-element_at.py`                        | Function that retrieves an element from a list like in C
 `2-replace_in_list.py`                   | Function that replaces an element of a list at a specific position
