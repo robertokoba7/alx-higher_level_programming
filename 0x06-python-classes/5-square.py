@@ -33,7 +33,7 @@ class Square:
         def my_print(self):
             """Print the square with # character."""
             for i in range(0, selt.__size):
-                [print("#", end='') for j i range(self.__size)]
+                [print("#", end='') for j in range(self.__size)]
                 print("")
             if self.__size == 0:
                 print("")
