@@ -1,47 +1,39 @@
 #!/usr/bin/python3
 class Square:
-    """A class that defines a square by it size
-    """
-    def __init__(self,size=0):
-        """ Method to initialize the square object
-        """
-        if not isinstance(size, int):
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >+ 0")
-        else:
-            self.__size = size
+    """Define a class Square."""
 
-    def area(self):
-        """Method that returns the square area of the object
-        """
-        return (self.__size **2)
+    class Square:
+        """Represent a square."""
 
-    @property
-    def size(self):
-        """ Method that returns the sze value
-        """
-        return self.__size
+        def __init__(self, size):
+            """Initialize a new square.
 
-    @size.setter
-    def size(self, vale):
-        """ Method to set the size value of the square object
-        """
-        if not isinstance(value, int):
-            raise TypeError("size must be >= 0")
-        elif value < 0:
-            raise ValueError("size must be >= 0")
-        else:
+            Args:
+                size (int): The size of te new square.
+            """
+            self.size = size
+
+        @property
+        def size(self):
+            """Get/set the current size of the square."""
+            return (self.__size)
+
+        @size.setter
+        def size(self, value):
+            if not isinstance(value, int):
+                raise TypeError("size must be an integer")
+            elif value < 0:
+                raise ValueError("size must be >= 0")
             self.__size = value
 
-    def my_print(self):
-        """ Method that prints a # square according
-        to the size value
-        """
-        if not self.__size:
-            print()
-        else:
-            for i in range(self.__size):
-                for j in range(self.__size):
-                    print("#", end='')
-                print()
+        def area(self):
+            """Return the current area of the square."""
+            return (self.__size * self.__size)
+
+        def my_print(self):
+            """Print the square with # character."""
+            for i in range(0, selt.__size):
+                [print("#", end='') for j i range(self.__size)]
+                print("")
+            if self.__size == 0:
+                print("")
