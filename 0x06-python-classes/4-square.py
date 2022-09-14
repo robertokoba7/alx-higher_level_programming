@@ -4,7 +4,7 @@
 
 class Square:
     """
-        Square: defines a square
+        Square: defines a square.
         Attributes:
             size (int): size of square
         Method:
@@ -13,40 +13,30 @@ class Square:
 
     def __init__(self, size=0):
         """ Initialization of attributes for instances
-        Args:
-            size (int): size of the square.
+            Args:
+                size (int): size of the square.
         """
-        if (isinstance(size, int)):
-            self.__size = size
-            if size < 0:
-                raise ValueError("size must be >= 0")
-            else:
-                raise TypeError("size must be an integer")
+        self.size = size
+
 
     @property
     def size(self):
-        """ getter function to for private attribute size
-            Return:
-                size of the square
-        """
-        return self.__size
+        """ getter function to for private attribute size"""
+        return (self.__size)
 
+    @property
+    def size(self):
+        """Get/set the current size of the square."""
+        return (self.__size)
+    
     @size.setter
     def size(self, value):
-        """ setter function for private attribute size
-            Args:
-                value (int): value to be set
-            Return:
-                nothing
-        """
-        if not (isinstance(value, int)):
-            raise TypeError('size must be an integer')
-        if value < 0:
-            raise ValueError('size must be >= 0')
+        if not isinstance(value, int):
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be >= 0")
         self.__size = value
 
     def area(self):
-        """
-            area of the square.
-        """
-        return self.__size * self.__size
+        """Return the current area of the square."""
+        return (self.__size * self.__size)
