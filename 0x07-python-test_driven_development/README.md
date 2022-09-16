@@ -11,7 +11,7 @@ Technologies
 
 Files
 ---
-**Filename                      |**Description**
+**Filename**                      |**Description**
 --------------------------------|--------------------------------
 `0-add_integer.py`              | Function that adds two integers (Doctest on `tests/0-add_integer.txt`)
 `2-matrix_divided.py`           | Function that divides all elemtns of a matrix (Doctest on `tests/2-matrix_divided.txt`)
