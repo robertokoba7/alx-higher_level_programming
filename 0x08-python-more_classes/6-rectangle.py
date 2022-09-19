@@ -38,7 +38,7 @@ class Rectangle:
 
         return self.__width
 
-     @width.setter
+    @width.setter
     def width(self, value):
         """ method that defines the width
 
@@ -81,7 +81,7 @@ class Rectangle:
             TypeError: if height is not an integer
             ValueError: if height is less than zero
 
-           
+
         """
 
         if not isinstance(value, int):
