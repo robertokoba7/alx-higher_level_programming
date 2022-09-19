@@ -30,7 +30,7 @@ class Rectangle:
         Returns:
             rectangle width
 
-        
+
         """
 
         return self.__width
@@ -46,7 +46,7 @@ class Rectangle:
             TypeError: if width is not an integer
             ValueError: if width is less than zero
 
-        
+
         """
 
         if not isinstance(value, int):
@@ -57,7 +57,7 @@ class Rectangle:
 
     @property
     def height(self):
-       """ method that returns the value of the height
+        """ method that returns the value of the height
 
         Returns:
             rectangle height
