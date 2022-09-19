@@ -42,8 +42,8 @@ def print_result(m_queen, nqueen):
 
     res = []
 
-   for i in range(nqueen):
-       res.append([i, m_queen[i]])
+    for i in range(nqueen):
+        res.append([i, m_queen[i]])
 
     print(res)
 
