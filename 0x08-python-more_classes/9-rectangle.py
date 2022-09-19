@@ -13,7 +13,6 @@ class Rectangle:
     number_of_instances = 0
     print_symbol = "#"
 
-
     def __init__(self, width=0, height=0):
         """ Method that initializes the instance
 
@@ -100,12 +99,12 @@ class Rectangle:
 
         """
 
-       return self.width * self.height
+        return self.width * self.height
 
-   def perimeter(self):
-       """ Method that calculates the Rectangle perimeter
+    def perimeter(self):
+        """ Method that calculates the Rectangle perimeter
 
-       Returns:
+        Returns:
             rectangle perimeter
 
 
@@ -137,8 +136,8 @@ class Rectangle:
 
     def __repr__(self):
         """ Method that returns the string represantion of the instance
-       
-       Returns:
+
+        Returns:
             string represenation of the object
 
         """
@@ -177,8 +176,8 @@ class Rectangle:
         if not isinstance(rect_2, Rectangle):
             raise TypeError("rect_2 must be an instance")
 
-       if rect_1.area() >= rect_2.area():
-           returns rect_1
+        if rect_1.area() >= rect_2.area():
+            returns rect_1
         else:
             return rect_2
 
