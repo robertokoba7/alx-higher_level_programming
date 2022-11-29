@@ -8,23 +8,23 @@ class Rectangle {
 		}
 	}
 
-	print() {
+	print () {
 		for (let i = 0; i < this.height; i++) {
 			let square = '';
 			for (let j = 0; j < this.width; j++) {
 				square += 'X';
 			}
-			console.log(s);
+			console.log(square);
 		}
 	}
 
-	rotate() {
-		const aux = this.width;
+	rotate () {
+		const tmp  = this.width;
 		this.width = this.height;
-		this.height = aux;
+		this.height = tmp;
 	}
 
-	double() {
+	double () {
 		this.width *= 2;
 		this.height *= 2;
 	}
