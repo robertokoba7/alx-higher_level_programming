@@ -1,4 +1,3 @@
 #!/bin/bash
 #display the body response
-
-curl -Ls "$1"
+curl -sfL "$1" -X GET
