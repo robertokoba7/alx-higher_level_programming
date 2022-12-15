@@ -1,3 +1,3 @@
 #!/bin/bash
-# curl to display all HTTP methods the server accepts
-curl -sI "$1" | grep "Allow" | cut -d " " -f 2-
+# curl sends GET req to URL, displays response body
+curl -sH "X-School-User-Id: 98" "$1"
